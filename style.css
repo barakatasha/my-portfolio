@@ -1,0 +1,105 @@
+/* Styles */
+body {
+  background: linear-gradient(to bottom, #ffffff, #9e8fa6); /* White to darker purple ombre */
+  color: black; /* Change text color to black */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black; /* Change header background color to black */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white; /* Change text color of h1 to white */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block; /* Change display to inline-block */
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: black; /* Change text color to black */
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px 20px; /* Add padding */
+  background-color: white; /* Add white background */
+  border-radius: 5px; /* Add border radius */
+}
+
+.page {
+  padding: 50px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Project Grid Layout */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px);
+}
+
+.project img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.project p {
+  font-size: 1em;
+  line-height: 1.4;
+}
